@@ -1,7 +1,7 @@
 
 ## 📂 Estrutura por projeto
 
-### **1. MyProject.API** (ASP.NET Core Web API)
+### **1. CapitalGainsTax.API** (ASP.NET Core Web API)
 
 ```shell
  ├── Controllers/          # Controllers / Endpoints
@@ -14,7 +14,7 @@
 ```
 
 
-### **2. MyProject.Application** (Class Library)
+### **2. CapitalGainsTax.Application** (Class Library)
 
 ```shell
  ├── Interfaces/           # Contratos (ports) usados pela aplicação
@@ -30,7 +30,7 @@
  └── Services/             # Regras de orquestração de casos de uso` 
 ```
 
-### **3. MyProject.Domain** (Class Library)
+### **3. CapitalGainsTax.Domain** (Class Library)
 
 ```shell
  ├── Entities/             # Entidades principais do negócio
@@ -43,7 +43,7 @@
 ```
 
 
-### **4. MyProject.Infra** (Class Library)
+### **4. CapitalGainsTax.Infra** (Class Library)
 
 ```shell
  ├── Data/
@@ -57,7 +57,7 @@
  └── Services/             # Implementações de serviços externos (ex.: Email, API externa)` 
 ```
 
-### **5. MyProject.UnitTests** (xUnit)
+### **5. CapitalGainsTax.UnitTests** (xUnit)
 
 ```shell
  ├── Domain/
@@ -68,7 +68,7 @@
       ├── Commands/        # Testes de CommandHandlers
       └── Queries/         # Testes de QueryHandlers` 
 ```
-### **6. MyProject.IntegrationTests** (xUnit)
+### **6. CapitalGainsTax.IntegrationTests** (xUnit)
 
 ```shell
  ├── API/
