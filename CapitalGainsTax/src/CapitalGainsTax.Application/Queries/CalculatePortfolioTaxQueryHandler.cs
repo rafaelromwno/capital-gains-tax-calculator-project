@@ -15,7 +15,7 @@ namespace CapitalGainsTax.Application.Queries
             _portfolioRepository = portfolioRepository;
         }
 
-        public async Task<PortfolioSummaryDto> Handle(CalculatePortfolioTaxQuery request, CancellationToken cancellationToken)
+        public async Task<PortfolioSummaryDTO> Handle(CalculatePortfolioTaxQuery request, CancellationToken cancellationToken)
         {
             var portfolio = await _portfolioRepository.GetByIdAsync(request.PortfolioId);
 

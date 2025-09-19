@@ -1,3 +1,4 @@
+using CapitalGainsTax.Application.Queries;
 using CapitalGainsTax.Infrastructure.IoC;
 
 namespace CapitalGainsTax.API
