@@ -18,6 +18,12 @@ namespace CapitalGainsTax.Infrastructure.IoC
             // registra repositórios
             services.AddScoped<IPortfolioRepository, PortfolioRepository>();
 
+            var myhandlers = AppDomain.CurrentDomain.Load("CapitalGainsTax.Application");
+            services.AddMediatR(cfg =>
+            {
+                cfg.RegisterServicesFromAssemblies(myhandlers);
+            });
+
             return services;
         }
     }
