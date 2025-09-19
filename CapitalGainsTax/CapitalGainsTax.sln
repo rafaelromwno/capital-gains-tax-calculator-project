@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -15,9 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapitalGainsTax.Infrastruct
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED5672F4-2637-4975-BE83-959EA8264DFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapitalGainsTax.UnitTests", "tests\CapitalGainsTax.UnitTests\CapitalGainsTax.UnitTests.csproj", "{32D52EBE-ED13-41F5-AD50-8C2A697957D7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapitalGainsTax.IntegrationTests", "tests\CapitalGainsTax.IntegrationTests\CapitalGainsTax.IntegrationTests.csproj", "{9D52342E-241D-4592-8FDD-9FE38714DAF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapitalGainsTax.UnitTests", "tests\CapitalGainsTax.UnitTests\CapitalGainsTax.UnitTests.csproj", "{0084D751-2AA1-4AB3-A236-741D8337D801}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,14 +41,14 @@ Global
 		{CB8A9011-5352-4A04-A26C-F1BCC5C6DA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB8A9011-5352-4A04-A26C-F1BCC5C6DA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB8A9011-5352-4A04-A26C-F1BCC5C6DA70}.Release|Any CPU.Build.0 = Release|Any CPU
-		{32D52EBE-ED13-41F5-AD50-8C2A697957D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32D52EBE-ED13-41F5-AD50-8C2A697957D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32D52EBE-ED13-41F5-AD50-8C2A697957D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32D52EBE-ED13-41F5-AD50-8C2A697957D7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9D52342E-241D-4592-8FDD-9FE38714DAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9D52342E-241D-4592-8FDD-9FE38714DAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D52342E-241D-4592-8FDD-9FE38714DAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D52342E-241D-4592-8FDD-9FE38714DAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0084D751-2AA1-4AB3-A236-741D8337D801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0084D751-2AA1-4AB3-A236-741D8337D801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0084D751-2AA1-4AB3-A236-741D8337D801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0084D751-2AA1-4AB3-A236-741D8337D801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,8 +58,8 @@ Global
 		{47455661-6E5E-4320-9572-A88DF8449150} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{5CB9279C-5CEF-435E-B114-402F0C4F2F36} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{CB8A9011-5352-4A04-A26C-F1BCC5C6DA70} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{32D52EBE-ED13-41F5-AD50-8C2A697957D7} = {ED5672F4-2637-4975-BE83-959EA8264DFE}
 		{9D52342E-241D-4592-8FDD-9FE38714DAF3} = {ED5672F4-2637-4975-BE83-959EA8264DFE}
+		{0084D751-2AA1-4AB3-A236-741D8337D801} = {ED5672F4-2637-4975-BE83-959EA8264DFE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {568E2158-E0F9-40CB-A331-39020F48CDAF}
