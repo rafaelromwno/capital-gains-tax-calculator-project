@@ -1,3 +1,4 @@
+using CapitalGainsTax.Infrastructure.IoC;
 
 namespace CapitalGainsTax.API
 {
@@ -6,6 +7,8 @@ namespace CapitalGainsTax.API
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddInfrastructure(builder.Configuration);
 
             // Add services to the container.
 
