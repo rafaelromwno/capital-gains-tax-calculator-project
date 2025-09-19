@@ -20,6 +20,12 @@ namespace CapitalGainsTax.Infrastructure.Data.Repositories
                 .Include(p => p.Operations)
                 .FirstOrDefaultAsync(p => p.PortfolioId == id);
         }
+        public async Task<IEnumerable<Portfolio>> GetAllAsync()
+        {
+            return await _context.Portfolios
+                .Include(p => p.Operations)
+                .ToListAsync();
+        }
 
         public async Task AddAsync(Portfolio portfolio)
         {
